@@ -22,7 +22,7 @@ int main()
 
     pennies = total_cents % 5; //figure out how many cents using modulo
 
-    std::cout << saved_cents << " cents has " << quarters << " quarters ";
+    std::cout << saved_cents << " cents has " << dollars << " dollars " << quarters << " quarters ";
     std::cout << dimes << " dimes " << nickels << " nickels and " << pennies << " pennies.\n";
     
     return 0;
