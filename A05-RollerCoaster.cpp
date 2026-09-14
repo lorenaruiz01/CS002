@@ -49,7 +49,7 @@ int main () {
 
     // Display result
     if (hasPermission) {
-        cout << "You need to ride the black roller coaster." << std::endl;
+        cout << "You can ride the black roller coaster." << std::endl;
     } else {
         cout << "You are not allowed to ride the black roller coaster." << std::endl;
     }
@@ -65,7 +65,7 @@ int main () {
 
     // Display result
     if (hasPermission) {
-        cout << "You need to ride the red roller coaster." << std::endl;
+        cout << "You can ride the red roller coaster." << std::endl;
     } else {
         cout << "You are not allowed to ride the red roller coaster." << std::endl;
     }
