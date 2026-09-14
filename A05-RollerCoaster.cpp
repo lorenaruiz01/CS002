@@ -106,9 +106,8 @@ int main () {
     return 0;
 
     else {
-        hasPermission = true;
-    } 
-    // Display result
-    if (hasPermission) {
         cout << "You can ride the pink roller coaster." << std::endl;
+    }
+
+    return 0;
 }
