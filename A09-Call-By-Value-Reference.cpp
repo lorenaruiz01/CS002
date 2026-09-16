@@ -14,3 +14,10 @@ int addExtraCreditValue(int studentScore) {
     return newScore; // return the new score
 }
 
+// Function that uses call by reference
+// takes an integer student score by reference, adds 5 extra points, and updates the original score.
+void addExtraCreditReference(int &studentScore) {
+    studentScore += 5; // add 5 extra points to the original score
+}
+
+
