@@ -10,7 +10,6 @@ using namespace std;
 // takes an integer student score, adds 5 extra points, and returns a new score.
 int addExtraCreditValue(int studentScore) {
     int newScore = studentScore + 5; // add 5 extra points
-    return studentScore; // return the original score
     return newScore; // return the new score
 }
 
@@ -34,7 +33,7 @@ int main() {
 
     // Call the function that uses call by reference
     addExtraCreditReference(score);
-    cout << "Student's updated score is: " << score << endl; // should print the updated score
+    cout << "Student's score has been updated to: " << score << endl; // should print the updated score
 
     return 0;
 }
