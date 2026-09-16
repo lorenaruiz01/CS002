@@ -29,12 +29,12 @@ int main() {
 
     // Call the function that uses call by value
     int newScoreValue = addExtraCreditValue(score);
-    cout << "Original score after call by value: " << score << endl; // should print the original score
-    cout << "New score after call by value: " << newScoreValue << endl; // should print the new score
+    cout << "Student's original score is: " << score << endl; // should print the original score
+    cout << "New student score is: " << newScoreValue << endl; // should print the new score
 
     // Call the function that uses call by reference
     addExtraCreditReference(score);
-    cout << "Original score after call by reference: " << score << endl; // should print the updated score
+    cout << "Student's updated score is: " << score << endl; // should print the updated score
 
     return 0;
 }
