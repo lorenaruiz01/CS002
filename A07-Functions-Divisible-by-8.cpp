@@ -10,17 +10,28 @@ int main() {
     
     // Get user input
     cout << "Enter a number: ";
-    int number;
-    cin >> number;
-    while (number  <= 0) {
+    int numberFromUser;
+    cin >> numberFromUser;
+    while (numberFromUser  <= 0) {
         cout << "Please enter a positive integer: ";
-        cin >> number;
+        cin >> numberFromUser;
     }
+
+    // Call the function to print even numbers
+    print_evens(numberFromUser);
+
 }
 // prints all even numbers from zero to the number it was passed from main()
-void print_evens(int number) {
-    for (int i = 0; i <= number; i += 2) {
+void print_evens(int numberFromUser) {
+    for (int i = 0; i <= numberFromUser; i += 2) {
         cout << i << " ";
     }
     cout << endl;
+    
+    // returns true for each number divisible by 8
+    for (int i = 0; i <= numberFromUser; i++) {
+        if (i % 8 == 0) {
+            cout << i << " is divisible by 8." << endl;
+        }
+    }
 }
