@@ -1,6 +1,6 @@
 // Name: Lorena Ruiz (A10191832)
 
-// program that updates a student's exam score by adding extra credit point. 
+// program that updates a student's exam score by adding extra credit points. 
 // Implement two functions - one that uses call by value and another that uses call by reference - to see how they affect the original score.
 
 #include <iostream>
