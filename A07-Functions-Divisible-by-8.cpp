@@ -1,6 +1,11 @@
+// Name: Lorena Ruiz (A10191832)
+
+// program that gets a positive integer from the user and prints all even numbers from zero to that number. Then returns true for each number divisible by 8. 
+
 #include <iostream>
 using namespace std;
 
+// Gets a positive integer from the user. 
 int main() {
     
     // Get user input
