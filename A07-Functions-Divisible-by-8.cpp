@@ -31,6 +31,7 @@ void print_evens(int numberFromUser) {
     for (int i = 0; i <= numberFromUser; i += 2) {
         cout << i << "\n";
 
+        // function call to check if the number is divisible by 8
         if (is_divisible_by_8(i)) {
             cout << i << " is divisible by 8. \n";
         }
