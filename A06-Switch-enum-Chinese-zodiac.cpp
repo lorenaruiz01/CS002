@@ -28,23 +28,23 @@ int main ()
 {
 
 int year; 
+int remainder;
+enum chineseZodiac {Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig};
 
 cout << "Enter the year you were born: ";
 cin >> year;
 
-switch (year)
+remainder = (year - 4) % 12;
+
+switch (remainder)
 {
-    
+    case 0:
+        cout << "You were born in the year of the Rat." << endl;
+        break;
 }
 
 
-enum chineseZodiac {Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig};
 
 
-int yearYouWereBorn() {
-    int year;
-    
-    cin >> year;
-}
 
 }
