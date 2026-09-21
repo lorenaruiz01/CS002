@@ -1,4 +1,4 @@
-// Lorena Ruiz A10191832
+// Lorena Ruiz (A10191832)
 // A06-Switch-enum-Chinese-zodiac.cpp
 
 // formula for converting year to chinese zodiac animal
@@ -20,3 +20,6 @@ Remainder | Animal
 10        | Dog
 11        | Pig
 */
+
+#include <iostream>
+using namespace std;
