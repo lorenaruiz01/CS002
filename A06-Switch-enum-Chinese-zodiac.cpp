@@ -1,7 +1,7 @@
 // Lorena Ruiz (A10191832)
 // A06-Switch-enum-Chinese-zodiac.cpp
 
-// formula for converting year to chinese zodiac animal
+// formula for converting year to Chinese zodiac animal
 // year - 4 % 12 = remainder of the year when divided by 12
 // match the remainder to the corresponding animal in the Chinese zodiac cycle
 
