@@ -44,6 +44,36 @@ switch (remainder)
     case 1:
         cout << "You were born in the year of the Ox." << endl;
         break;
+    case 2:
+        cout << "You were born in the year of the Tiger." << endl;
+        break;
+    case 3:
+        cout << "You were born in the year of the Rabbit." << endl;
+        break;
+    case 4:
+        cout << "You were born in the year of the Dragon." << endl;
+        break;
+    case 5:
+        cout << "You were born in the year of the Snake." << endl;
+        break;
+    case 6:
+        cout << "You were born in the year of the Horse." << endl;
+        break;
+    case 7:
+        cout << "You were born in the year of the Goat." << endl;
+        break;
+    case 8:
+        cout << "You were born in the year of the Monkey." << endl;
+        break;
+    case 9:
+        cout << "You were born in the year of the Rooster." << endl;
+        break;
+    case 10:
+        cout << "You were born in the year of the Dog." << endl;
+        break;
+    case 11:
+        cout << "You were born in the year of the Pig." << endl;
+        break;
 }
 
 
