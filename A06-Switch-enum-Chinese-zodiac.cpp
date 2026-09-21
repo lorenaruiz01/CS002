@@ -48,33 +48,43 @@ switch (remainder)
         break;
     case 2:
         cout << "You were born in the year of the Tiger." << endl;
+        cout << "The Tiger is brave, confident, competetive, and unpredictable." << endl;
         break;
     case 3:
         cout << "You were born in the year of the Rabbit." << endl;
+        cout << "The Rabbit is quiet, elegant, kind, and responsible." << endl;
         break;
     case 4:
         cout << "You were born in the year of the Dragon." << endl;
+        cout << "The Dragon is confident, intelligent, and enthusiastic." << endl;
         break;
     case 5:
         cout << "You were born in the year of the Snake." << endl;
+        cout << "The snake is enigmatic, intelligent, and wise." << endl;
         break;
     case 6:
         cout << "You were born in the year of the Horse." << endl;
+        cout << "The Horse is energetic, active, and elegant." << endl;
         break;
     case 7:
         cout << "You were born in the year of the Goat." << endl;
+        cout << "The Goat is gentle, kind, and responsible." << endl;
         break;
     case 8:
         cout << "You were born in the year of the Monkey." << endl;
+        cout << "The Monkey is sharp, smart, and curious." << endl;
         break;
     case 9:
         cout << "You were born in the year of the Rooster." << endl;
+        cout << "The Rooster is observant, hardworking, and courageous." << endl;
         break;
     case 10:
         cout << "You were born in the year of the Dog." << endl;
+        cout << "The Dog is loyal, honest, and responsible." << endl;
         break;
     case 11:
         cout << "You were born in the year of the Pig." << endl;
+        cout << "The Pig is compassionate, generous, and diligent." << endl;
         break;
 }
 
