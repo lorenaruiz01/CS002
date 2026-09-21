@@ -23,3 +23,28 @@ Remainder | Animal
 
 #include <iostream>
 using namespace std;
+
+int main ()
+{
+
+int year; 
+
+cout << "Enter the year you were born: ";
+cin >> year;
+
+switch (year)
+{
+    
+}
+
+
+enum chineseZodiac {Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig};
+
+
+int yearYouWereBorn() {
+    int year;
+    
+    cin >> year;
+}
+
+}
