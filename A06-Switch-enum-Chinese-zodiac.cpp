@@ -40,6 +40,7 @@ switch (remainder)
 {
     case 0:
         cout << "You were born in the year of the Rat." << endl;
+        cout << "The Rat is quick-witted, resourceful, versatile, and kind." << endl;
         break;
     case 1:
         cout << "You were born in the year of the Ox." << endl;
