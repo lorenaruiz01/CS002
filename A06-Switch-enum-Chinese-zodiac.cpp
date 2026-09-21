@@ -27,8 +27,10 @@ using namespace std;
 int main ()
 {
 
-int year; 
-int remainder;
+int year; // variable to hold the year input by the user
+int remainder; // variable to hold the remainder of the year when divided by 12
+
+// variable to hold the corresponding animal in the Chinese zodiac cycle, assigned using an enum type. The first item in the array is assigned to the value index 0, the second item is assigned to the value index 1, and so on. The last item in the array is assigned to the value index 11.
 enum chineseZodiac {Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig};
 
 cout << "Enter the year you were born: ";
