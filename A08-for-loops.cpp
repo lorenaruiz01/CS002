@@ -32,10 +32,13 @@ int main()
         return 0;
     }
 
-    if (yourNumber == 1 || yourNumber == 0) {
+    // 1 is not a prime number
+    if (yourNumber == 1) {
         cout << yourNumber << " is not a prime number." << endl;
         return 0;
     }
+
+    //
     bool isPrime = true;
     for (int i = 2; i * i <= yourNumber; ++i) {
         if (yourNumber % i == 0) {
@@ -56,7 +59,7 @@ int main()
                 }
             }
             if (isNumPrime) {
-                cout << num << " ";
+                cout << num << " " << endl;
             }
         }
         cout << endl;
