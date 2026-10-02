@@ -39,16 +39,16 @@ int main()
     }
 
     // Check if the entered number is prime
-    bool isPrime = true;
+    bool is_prime = true;
     for (int i = 2; i * i <= yourNumber; ++i) {
         if (yourNumber % i == 0) {
-            isPrime = false;
+            is_prime = false;
             break;
         }
     }
     
     // Display all prime numbers between 1 and the entered number if it is prime
-    if (isPrime) {
+    if (is_prime) {
         cout << yourNumber << " is a prime number." << endl;
         cout << "All the prime numbers up to " << yourNumber << " are:" << endl;
         for (int num = 2; num <= yourNumber; ++num) {
