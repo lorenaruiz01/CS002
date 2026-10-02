@@ -1,4 +1,4 @@
-//Lorena Ruiz
+//Lorena Ruiz, 10191832
 //CS002
 //Assignment 8: For Loops
 // Create a C++ program that uses a for loop to find and display all prime numbers between 1 and 100.
@@ -50,7 +50,7 @@ int main()
     // Display all prime numbers between 1 and the entered number if it is prime
     if (isPrime) {
         cout << yourNumber << " is a prime number." << endl;
-        cout << "All the prime numbers between 1 and " << yourNumber << " are:" << endl;
+        cout << "All the prime numbers up to " << yourNumber << " are:" << endl;
         for (int num = 2; num <= yourNumber; ++num) {
             bool isNumPrime = true;
             for (int i = 2; i * i <= num; ++i) {
