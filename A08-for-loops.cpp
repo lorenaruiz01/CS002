@@ -5,8 +5,8 @@
 
 // first ask user to enter number
 // second check if number is positive
-// third check if number is 0 or 1
-// fourth check if number is prime  
+// third check if number is less than 100
+// fourth check if number is 1  
 // fifth if number is prime, display all prime numbers between 1 and the entered number
 
 
@@ -38,7 +38,7 @@ int main()
         return 0;
     }
 
-    //
+    // Check if the entered number is prime
     bool isPrime = true;
     for (int i = 2; i * i <= yourNumber; ++i) {
         if (yourNumber % i == 0) {
@@ -47,6 +47,7 @@ int main()
         }
     }
     
+    // Display all prime numbers between 1 and the entered number if it is prime
     if (isPrime) {
         cout << yourNumber << " is a prime number." << endl;
         cout << "All the prime numbers between 1 and " << yourNumber << " are:" << endl;
