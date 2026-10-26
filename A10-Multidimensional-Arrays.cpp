@@ -38,7 +38,7 @@ int main() {
 void inputScores(int arr[][M], int n, int m) {
     for (int i = 0; i < n; i++) {
         cout << "Enter scores for student " << i + 1 << ":" << endl;
-        for (int j = 0; j < m: j++) {
+        for (int j = 0; j < m; j++) {
             cout << "Subject " << j + 1 << ": ";
             cin >> arr[i][j];
         }
