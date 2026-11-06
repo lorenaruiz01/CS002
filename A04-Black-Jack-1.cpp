@@ -1,6 +1,6 @@
 //Lorena Ruiz
 //10191832
-//Black Jack Game Part 1
+//Black Jack Game
 
 #include <iostream>
 #include <string>
